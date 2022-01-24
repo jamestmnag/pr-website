@@ -2070,6 +2070,9 @@ var submit = document.getElementById("submit");
 var subM = document.getElementById('submenu3');
 var body = document.getElementById('body');
 var subM3 = document.getElementById('submenu3.1');
+var animate = document.getElementById('pageAnimation'); // on load
+
+windows.onload(animate.style.display = "none");
 login.addEventListener('click', function () {
   if (loginF.style.display === "none") {
     loginF.style.display = "block"; // console.log(loginF)

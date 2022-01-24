@@ -14,6 +14,10 @@
 </head>
 
 <body id="body">
+    {{-- loading page animation --}}
+    {{-- <div class="loading_Page_Animation" id="pageAnimation">
+        <img src="{{asset('img/loading.gif')}}" alt="" srcset="">
+    </div> --}}
     <!-- nav upper media part -->
     <div class="container-fluid d-flex mb-0 nav_uppersection">
         

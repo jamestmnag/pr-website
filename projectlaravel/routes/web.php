@@ -23,6 +23,8 @@ Route::get('/about', [PagesController::class,'about']);
 // Route::get('/layouts', [PagesController::class,'layouts']);
 Route::get('/crude/update',  [PostsController::class,'post']);
 Route::get('/crude/entry',  [PostsController::class,'entry']);
-Route::get('/crude/modify',  [PostsController::class,'modify']);
+Route::get('/cmodify',  [PostsController::class,'modify']);
+Route::get('/cupdate',  [PostsController::class,'update']);
+Route::get('/cdemo',  [PostsController::class,'demo']);
 
 

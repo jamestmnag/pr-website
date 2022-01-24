@@ -23,4 +23,10 @@ class PostsController extends Controller
    public function modify() {
        return view('crude.modify.modify');
    }
+   public function update() {
+       return view('crude.update.update');
+   }
+   public function demo() {
+       return view('crude.update.demo');
+   }
 }

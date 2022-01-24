@@ -9,19 +9,20 @@
 <hr class="text-weight-bold">
 
 <div class="container pd-auto">
-   @foreach ($car as $car )
+   {{-- @foreach ($car as $car )
    
    
    
    <p class="m-auto text-uppercase fs-6">
-        founded : {{ $car-> founded }}
+        founded : {{ $car->founded }}
     </p>
-    <h2 class="fs-2">{{ $car-> name }}</h2>
+    <h2 class="fs-2">{{ $car->name }}</h2>
     <p>
     {{ $car-> description }}    </p>
     <hr class="pd-1 m-1">
        
-   @endforeach
+   @endforeach --}}
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae, praesentium voluptatem accusantium laboriosam provident molestiae quos aliquid ex quasi et nisi nemo corrupti libero corporis dolores mollitia officiis? Rem!</p>
 </div>
 
 

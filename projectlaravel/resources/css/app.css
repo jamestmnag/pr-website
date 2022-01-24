@@ -3,6 +3,11 @@
 * {
     font-family: "Ubuntu", sans-serif;
 }
+.loading_Page_Animation img{
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
 .nav_uppersection{
     height: 14px;
 position: relative;

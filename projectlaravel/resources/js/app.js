@@ -8,6 +8,14 @@ const submit = document.getElementById("submit");
 const subM = document.getElementById('submenu3')
 const body = document.getElementById('body')
 const subM3= document.getElementById('submenu3.1');
+const animate= document.getElementById('pageAnimation');
+
+
+
+// on load
+windows.onload(
+    animate.style.display = "none"
+)
 
 
 login.addEventListener('click', function(){
