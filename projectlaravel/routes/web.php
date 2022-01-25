@@ -21,7 +21,7 @@ use App\Http\Controllers\PostsController;
 Route::get('/',[PagesController::class, 'index']);
 Route::get('/about', [PagesController::class,'about']);
 // Route::get('/layouts', [PagesController::class,'layouts']);
-Route::get('/crude/update',  [PostsController::class,'post']);
+Route::get('/cupdate',  [PostsController::class,'post']);
 Route::get('/crude/entry',  [PostsController::class,'entry']);
 Route::get('/cmodify',  [PostsController::class,'modify']);
 Route::get('/cupdate',  [PostsController::class,'update']);

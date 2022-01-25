@@ -11,11 +11,7 @@ class PostsController extends Controller
    public function post() {
        $car = Post::all();
     //    dd($car);
-       return view('crude.update.update',[
-           'car' => $car
-       ]
-
-    );
+       return view('crude.update.update');
    }
    public function entry() {
        return view('crude.entry.entry');

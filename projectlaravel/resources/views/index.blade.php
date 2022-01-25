@@ -10,6 +10,7 @@
     <link rel="stylesheet" href={{asset('css/app.css')}}>
     <link rel="stylesheet" href={{asset('botstrapicon.css')}}>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0-11/css/all.css" rel="stylesheet" type='text/css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 </head>
 
@@ -29,9 +30,18 @@
                 <p class="broder_left">Call us +9779843447694</p>
             </div>
             <div class="  d-flex justify-content-end customer_care">
-                <a href="" class="m-1">SELL ON SASTODEAL</a>
-                <a href="" class="m-1 border-right-0">HELP CENTER</a>
-                <a href="" class="m-1">TRACK ORDER</a>
+               <p>
+
+                   <a href="" class="m-1">SELL ON SASTODEAL</a>
+               </p> 
+               <p>
+
+                   <a href="" class="m-1 border-right-0">HELP CENTER</a>
+               </p>
+               <p>
+
+                   <a href="" class="m-1">TRACK ORDER</a>
+               </p>
             </div>
         
 
@@ -42,7 +52,10 @@
              <!-- nav lower logo search and login part --> 
         <div class=" d-flex justify-content-evenly fs-2 mt-3 shadow p-3 mb-3 bg-white  ">
         <p class="col col-3 logo ">
+        <a href="{{url('/')}}">
+            
             LoGo
+        </a>   
         </p>
         <label for="search " class="fs-3 mt-1 search col-7">
             <input type="text" class="input" placeholder="Search" class="input">
@@ -97,7 +110,9 @@
                 </div>
             </ls>
             <ls class="border border-2 border-info  rounded p-1 hover m-1 ">
-                <a href= "{{ url('crude/update/') }}">
+               <!-- essential 
+            Amazing trick loook at web.php a href -->
+            <a href= "{{ url('cupdate/') }}">
 
                     Product
                 </a>
@@ -130,16 +145,60 @@
         </ul>
     </nav>
     <!-- navigation end -->
+    <!-- slider begin -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{asset('img/ad1.png')}}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{asset('img/ad4.png')}}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{asset('img/ad3.jpg')}}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
+    <!-- slider end -->
+
+ <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi itaque impedit qui at amet quis voluptas, accusamus, iusto voluptates dolorum culpa, iste aliquid cumque soluta? Est, illo. Perferendis, mollitia. Culpa perspiciatis consequatur quidem veritatis odio aliquam voluptatum mollitia explicabo. Sequi ea qui maxime, exercitationem architecto illum facilis reprehenderit unde nesciunt!</p>
 
     <!-- footer start -->
-    <footer class="position-absolute bottom-0 end-50">
+    <footer class=" bottom-0 end-50">
         <div class="container">
             this is the footer.
         </div>
     </footer>
     <script async="true" src="/js/app.js"></script>
-    <script src={{ asset('bootstrap.js') }}></script>
+    <script src={{asset('bootstrap.js')}}></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     <!-- footer end -->
 </body>
 

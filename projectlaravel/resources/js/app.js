@@ -13,7 +13,7 @@ const animate= document.getElementById('pageAnimation');
 
 
 // on load
-windows.onload(
+window.onload(
     animate.style.display = "none"
 )
 
