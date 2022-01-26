@@ -22,6 +22,7 @@
     <hr class="pd-1 m-1">
        
    @endforeach --}}
+ 
    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vitae, praesentium voluptatem accusantium laboriosam provident molestiae quos aliquid ex quasi et nisi nemo corrupti libero corporis dolores mollitia officiis? Rem!</p>
 </div>
 
