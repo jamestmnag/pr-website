@@ -25,4 +25,17 @@ class PostsController extends Controller
    public function demo() {
        return view('crude.update.demo');
    }
+
+   public function getImage($fileName){
+        // check if file exists in storage
+        // return storage bata file return 
+        // stroage_path("/img/name.png");
+
+        //else public bata no image file return garchau
+        storage_path("/img/ad1.jpeg");
+        
+   }
+   public function productinfo(){
+       return view('product');
+   }
 }

@@ -138,7 +138,7 @@
                 <img class="d-block w-100" src="{{asset('img/ad1.png')}}" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="{{asset('img/ad2.png')}}" alt="Second slide">
+                <img class="d-block w-100" src="{{url('/getimage/ad1.jpeg')}}" alt="Second slide">
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="{{asset('img/ad3.png')}}" alt="Third slide">

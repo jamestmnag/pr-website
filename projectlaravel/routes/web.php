@@ -26,5 +26,9 @@ Route::get('/crude/entry',  [PostsController::class,'entry']);
 Route::get('/cmodify',  [PostsController::class,'modify']);
 Route::get('/cupdate',  [PostsController::class,'update']);
 Route::get('/cdemo',  [PostsController::class,'demo']);
+Route::get('/product',[PostsController::class,'productinfo']);
+
+
+Route::get('/getimage/ad1.jpeg',  [PostsController::class,'getImage']);
 
 
